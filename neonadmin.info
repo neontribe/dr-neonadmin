@@ -1,0 +1,7 @@
+name = Neontribe admin module
+description = Adds custom admin functions/drush commands
+core = 7.x
+; package = Other ; By leving this un-se it defaults to Other
+configure = admin/config/system/neonadmin
+files[] = neonadmin.test
+files[] = neonadmin.drush.inc
